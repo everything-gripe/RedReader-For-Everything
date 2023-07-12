@@ -1,17 +1,17 @@
 RedReader
 =========
 
-An unofficial, open source Android client for Reddit.
+An open source Android client for Everything.
 
-![CI](https://github.com/QuantumBadger/RedReader/workflows/CI/badge.svg?branch=master)
+![CI](https://github.com/everything-gripe/RedReader-For-Everything/workflows/CI/badge.svg?branch=master)
 [![Translation status](https://hosted.weblate.org/widgets/redreader/-/svg-badge.svg)](https://hosted.weblate.org/engage/redreader/?utm_source=widget)
 
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
       alt="Get it on Google Play"
-      height="80">](https://play.google.com/store/apps/details?id=org.quantumbadger.redreader)
+      height="80">](https://play.google.com/store/apps/details?id=gripe.everything.redreaderforeverything)
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
-     height="80">](https://f-droid.org/packages/org.quantumbadger.redreader/)
+     height="80">](https://f-droid.org/packages/gripe.everything.redreaderforeverything/)
 
 Features
 --------
@@ -35,15 +35,15 @@ Downloading
 
 RedReader is available for free on the Google Play store:
 
-https://play.google.com/store/apps/details?id=org.quantumbadger.redreader
+https://play.google.com/store/apps/details?id=gripe.everything.redreaderforeverything
 
 RedReader can also be found for free on F-Droid:
 
-https://f-droid.org/app/org.quantumbadger.redreader
+https://f-droid.org/app/gripe.everything.redreaderforeverything
 
-The Google Play APKs are also available here:
+The APKs are also available here:
 
-https://github.com/QuantumBadger/RedReader/releases
+https://github.com/everything-gripe/RedReader-For-Everything/releases
 
 
 Translating
@@ -52,9 +52,9 @@ Translating
 Please help us translate RedReader into new languages, or improve the
 translations for existing languages!
 
-https://hosted.weblate.org/projects/redreader/strings/
+https://hosted.weblate.org/projects/redreader-for-everything/strings/
 
-[![Translation status](https://hosted.weblate.org/widgets/redreader/-/287x66-grey.png)](https://hosted.weblate.org/engage/redreader/?utm_source=widget)
+[![Translation status](https://hosted.weblate.org/widgets/redreader-for-everything/-/287x66-grey.png)](https://hosted.weblate.org/engage/redreader-for-everything/?utm_source=widget)
 
 
 Pull Requests

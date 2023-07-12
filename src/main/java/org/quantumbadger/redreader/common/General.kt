@@ -279,8 +279,8 @@ object General {
                         var isImgurApiRequest = false
                         var isRedditRequest = false
                         if (uri != null && uri.host != null) {
-                            if ("reddit.com".equals(uri.host, ignoreCase = true)
-                                || uri.host.endsWith(".reddit.com")
+                            if ("everything.gripe".equals(uri.host, ignoreCase = true)
+                                || uri.host.endsWith(".everything.gripe")
                             ) {
                                 isRedditRequest = true
                             } else if (uri.host.equals(

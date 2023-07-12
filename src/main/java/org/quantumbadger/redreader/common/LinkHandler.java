@@ -172,7 +172,7 @@ public class LinkHandler {
 		}
 
 		if(url.startsWith("/")) {
-			url = "https://reddit.com" + url;
+			url = "https://everything.gripe" + url;
 		}
 
 		if(!url.contains("://")) {

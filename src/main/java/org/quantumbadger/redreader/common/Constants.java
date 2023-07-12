@@ -130,8 +130,8 @@ public final class Constants {
 		}
 
 		public static final String SCHEME_HTTPS = "https";
-		public static final String DOMAIN_HTTPS = "oauth.reddit.com";
-		public static final String DOMAIN_HTTPS_HUMAN = "reddit.com";
+		public static final String DOMAIN_HTTPS = "oauth.everything.gripe";
+		public static final String DOMAIN_HTTPS_HUMAN = "everything.gripe";
 		public static final String PATH_VOTE = "/api/vote";
 		public static final String PATH_SAVE = "/api/save";
 		public static final String PATH_HIDE = "/api/hide";
@@ -170,7 +170,7 @@ public final class Constants {
 		}
 
 		public static URI getNonAPIUri(final String path) {
-			return General.uriFromString(getScheme() + "://reddit.com" + path);
+			return General.uriFromString(getScheme() + "://everything.gripe" + path);
 		}
 
 		public static boolean isApiErrorUser(final String str) {

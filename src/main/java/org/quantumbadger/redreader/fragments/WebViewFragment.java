@@ -269,7 +269,7 @@ public class WebViewFragment extends Fragment
 		if(mUrl != null) {
 			webView.loadUrl(mUrl);
 		} else {
-			webView.loadHtmlUTF8WithBaseURL("https://reddit.com/", html);
+			webView.loadHtmlUTF8WithBaseURL("https://everything.gripe/", html);
 		}
 
 		webView.setWebViewClient(new WebViewClient() {

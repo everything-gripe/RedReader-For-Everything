@@ -242,7 +242,7 @@ public class SubredditSearchQuickLinks extends FlexboxLayout {
 			} else if(query.startsWith("/")) {
 				querySubreddit = null;
 				queryUser = null;
-				queryUrl = "https://reddit.com" + query;
+				queryUrl = "https://everything.gripe" + query;
 
 			} else {
 				querySubreddit = query.replaceAll("[ \t]+", "_");

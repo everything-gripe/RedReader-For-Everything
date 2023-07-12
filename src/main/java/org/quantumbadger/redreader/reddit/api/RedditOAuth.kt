@@ -54,12 +54,12 @@ object RedditOAuth {
             + "modconfig modflair modlog modposts modwiki mysubreddits "
             + "privatemessages read report save submit subscribe vote "
             + "wikiedit wikiread")
-    private const val ACCESS_TOKEN_URL = "https://www.reddit.com/api/v1/access_token"
+    private const val ACCESS_TOKEN_URL = "https://www.everything.gripe/api/v1/access_token"
 
     @JvmStatic
 	val promptUri: Uri
         get() {
-            val uri = Uri.parse("https://www.reddit.com/api/v1/authorize.compact").buildUpon()
+            val uri = Uri.parse("https://www.everything.gripe/api/v1/authorize.compact").buildUpon()
             uri.appendQueryParameter("response_type", "code")
             uri.appendQueryParameter("duration", "permanent")
             uri.appendQueryParameter("state", "Texas")
@@ -664,7 +664,7 @@ object RedditOAuth {
         postFields.add(
             PostField(
                 "grant_type",
-                "https://oauth.reddit.com/grants/installed_client"
+                "https://oauth.everything.gripe/grants/installed_client"
             )
         )
         postFields.add(

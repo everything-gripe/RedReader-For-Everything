@@ -81,9 +81,9 @@ public class RedditSubreddit implements
 	@WritableObjectTimestamp public long downloadTime;
 
 	private static final Pattern NAME_PATTERN = Pattern.compile(
-			"((/)?r/)?([\\w\\+\\-\\.:]+)/?");
+			"((/)?r/)?([\\w\\+\\-\\.:@]+)/?");
 	private static final Pattern USER_PATTERN = Pattern.compile(
-			"/?(u/|user/)([\\w\\+\\-\\.:]+)/?");
+			"/?(u/|user/)([\\w\\+\\-\\.:@]+)/?");
 
 	public RedditSubreddit(final CreationData creationData) {
 		this();
@@ -118,7 +118,7 @@ public class RedditSubreddit implements
 			return url;
 		}
 
-		return "https://reddit.com/r/" + display_name;
+		return "https://everything.gripe/r/" + display_name;
 	}
 
 	@Override

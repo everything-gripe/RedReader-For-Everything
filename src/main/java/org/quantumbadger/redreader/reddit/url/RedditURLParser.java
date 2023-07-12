@@ -94,8 +94,8 @@ public class RedditURLParser {
 			return Optional.empty();
 		}
 
-		if(hostSegments[hostSegments.length - 1].equals("com")
-				&& hostSegments[hostSegments.length - 2].equals("reddit")) {
+		if(hostSegments[hostSegments.length - 1].equals("gripe")
+				&& hostSegments[hostSegments.length - 2].equals("everything")) {
 			return Optional.of(uri);
 		}
 
@@ -249,7 +249,7 @@ public class RedditURLParser {
 		}
 
 		public String humanReadableUrl() {
-			return "reddit.com" + humanReadablePath();
+			return Constants.Reddit.getHumanReadableDomain() + humanReadablePath();
 		}
 
 		public String humanReadablePath() {

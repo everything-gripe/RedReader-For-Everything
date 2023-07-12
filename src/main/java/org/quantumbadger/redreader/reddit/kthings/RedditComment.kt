@@ -104,7 +104,7 @@ data class RedditComment(
 				result = "/$result"
 			}
 			if (result.startsWith("/")) {
-				result = "https://reddit.com$result"
+				result = "https://everything.gripe$result"
 			}
 			PostCommentListingURL.parse(Uri.parse(result))
 
